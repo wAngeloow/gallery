@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    padding: 60px;
+    font-size: 50px;
+    font-family: Kanit;
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    padding: 60px;
+    font-size: 19px;
+    font-style: italic;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /*centraliza as img no meio da tela*/
+    gap: 2vh;
+    padding: 0 2vw; /*empurra as imagens mais para dentro*/
+}
+
+.photo{
+    border: white 5px solid;
+    box-shadow: 5px 5px 20px black;
+    height: 340px;
+    width: 370px;
+    transition: transform .5s ease-out;
+}
+
+.photo:hover{
+    transform: scale(1.1);
+    border: white 5px solid;
+    box-shadow: 5px 5px 20px black;
+    transition: transform .5s ease-out; /*transform faz com que a borda não bugue*/
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
