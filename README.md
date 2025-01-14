@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Gallery</h1>
-  <p>Galeria de imagens responsiva que exibe uma coleção de heróis, com foco em personagens que o usuário aprecia.
+  <p>Galeria de imagens responsiva que exibe uma coleção de heróis.
   </p>
 </div>
 
